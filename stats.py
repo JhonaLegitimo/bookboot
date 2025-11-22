@@ -3,12 +3,12 @@ def get_book_text(file):
         file_contents = f.read()
     return file_contents
 
-book = get_book_text("books/frankenstein.txt")
-def get_num_words():
+
+def get_num_words(book):
     lists_book = book.split()
     return len(lists_book)
 
-def dictionary():
+def dictionary(book):
     d = {}
     for b in book:
         if not b.isalpha():
@@ -23,8 +23,8 @@ def dictionary():
 def sort_on(items):
     return items[1]
 
-def sorted_dic():
-    d = sorted(dictionary().items(),           
+def sorted_dic(book):
+    d = sorted(dictionary(book).items(),           
     key=sort_on,
     reverse=True              
     )
