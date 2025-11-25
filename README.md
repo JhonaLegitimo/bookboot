@@ -1,3 +1,3 @@
-#Python project
+# Python project
 
---Take sys argument file and return the count of words
+-- Take sys argument file and return the count of words
