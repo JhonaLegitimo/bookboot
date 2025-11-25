@@ -1,3 +1,3 @@
-# bookbot
+#Python project
 
-BookBot is my first [Boot.dev](https://www.boot.dev) project!
+--Take sys argument file and return the count of words
